@@ -19,7 +19,7 @@ private class Log_Tests {
             events.size(),
             'expected to find only a single event'
         );
-
+//change for Feature-004
         for (LogEvent__c logEvt : events) {
             System.Assert.areEqual(
                 currentRequestId,
