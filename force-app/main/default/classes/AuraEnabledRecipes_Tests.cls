@@ -18,7 +18,7 @@ private inherited sharing class AuraEnabledRecipes_Tests {
             'Expected the account name to be updated.'
         );
     }
-
+//change for Feature-002
     @isTest
     static void testUpdateAccountNameNegativeInvalidName() {
         Account acct = (Account) TestFactory.createSObject(
