@@ -10,7 +10,7 @@ export default class RelatedCodeTabs extends LightningElement {
     relatedClassesWireFunc({ error, data }) {
         this.relatedClasses = data;
     }
-//change for Feature-001
+
     get testClassName() {
         return this.recipeName + '_Tests';
     }

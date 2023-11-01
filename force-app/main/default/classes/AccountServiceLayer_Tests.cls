@@ -12,7 +12,7 @@ private inherited sharing class AccountServiceLayer_Tests {
             'Expected the log to match the input parameter.'
         );
     }
-//change for Feature-001
+
     @isTest
     static void testChangeShippingStreetNegativeNoEditAccess() {
         TriggerHandler.bypass('AccountTriggerHandler');
@@ -37,7 +37,7 @@ private inherited sharing class AccountServiceLayer_Tests {
                 }
             }
         }
-//change for Feature-001
+
         Test.stopTest();
 
         System.Assert.isTrue(
@@ -72,7 +72,7 @@ private inherited sharing class AccountServiceLayer_Tests {
             );
         }
     }
-//change for Feature-001
+
     @isTest
     static void incrementDescriptionOnBulkAccountsPositiveInvalidInteger() {
         List<Account> theAccounts = (List<Account>) TestFactory.createSObjectList(

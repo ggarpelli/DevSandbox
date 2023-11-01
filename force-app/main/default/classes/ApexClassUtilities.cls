@@ -16,7 +16,6 @@ public with sharing class ApexClassUtilities {
      * ApexClass klass = [SELECT Name, Body FROM ApexClass LIMIT 1];
      * System.debug(ApexClassUtilities.getGroupBodyFromClassBody(klass));
      */
-    //change for Feature-001
     public static String getGroupFromClassBody(ApexClass klass) {
         Pattern patternForFindingGroupTagInHeader = Pattern.compile(
             '.*@group.(.*)'
