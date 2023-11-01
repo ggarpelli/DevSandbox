@@ -18,7 +18,7 @@ public with sharing class AccountTriggerHandler extends TriggerHandler {
      */
     public class AccountTriggerHandlerException extends Exception {
     }
-//change for Feature-001
+//change for Feature-003
     /**
      * @description Constructor that sets class variables based on Trigger
      * context vars
@@ -30,17 +30,6 @@ public with sharing class AccountTriggerHandler extends TriggerHandler {
         this.triggerMapOld = (Map<Id, Account>) Trigger.oldMap;
     }
 
-    // Insert Contexts
-
-    /**
-     * @description Before Insert context method. Called automatically by the
-     * trigger framework this class extends.
-     * @example
-     * Account[] accounts = new Account[]();
-     * accounts.add(new Account(name='example 1'));
-     * accounts.add(new Account(name='example 2'));
-     * insert accounts;
-     **/
     public override void beforeInsert() {
         // Note: You don't need to put your logic directly in this method.
         // If, for instance, you have a service layer, you can call methods on
