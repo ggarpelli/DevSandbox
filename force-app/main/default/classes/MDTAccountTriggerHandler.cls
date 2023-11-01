@@ -5,6 +5,7 @@
  *
  * @see MetadataTriggerHandler
  */
+//change for Feature-001
 public with sharing class MDTAccountTriggerHandler extends TriggerHandler {
     override public void beforeUpdate() {
         for (Account acct : (List<Account>) Trigger.new) {
