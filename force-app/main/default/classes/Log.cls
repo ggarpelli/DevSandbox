@@ -23,6 +23,7 @@ public with sharing class Log {
      * private, to ensure we can't directly construct this class. Use the
      * Singleton, Luke.
      */
+    //change for Feature-004 (Second commit for Feature-004)
     private Log() {
         buffer = new List<LogMessage>();
     }
