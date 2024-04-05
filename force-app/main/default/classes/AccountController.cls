@@ -19,6 +19,7 @@ public class AccountController {
         for (Account imprimir : printAll){
             System.debug('Account Name: '+imprimir.Name+ 'Phone Number: '+imprimir.Phone);
         }
+        //essa linha foi adicionada para brincar
     }
     public integer getAccountSize(){
         List<Account> tamanhoLista = getAllAccounts();
