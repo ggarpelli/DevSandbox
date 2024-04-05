@@ -21,7 +21,7 @@ I recommend changing the name of your playgrounds to match the type of sandbox i
 
 <img src="./github-images/playgrounds.png" height="400px">
 
-### Deploy the source code to all 4 trailhead playgrounds
+### Deploy the source code to all 4 trailhead playgrounds - testando
 
 Create a directory in your computer and clone this repo
 
