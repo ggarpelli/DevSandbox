@@ -21,6 +21,7 @@ public class AccountController {
         }
         //essa linha foi adicionada para brincar
         //essa linha foi adicionada pelo Dev Console
+        //testando
     }
     public integer getAccountSize(){
         List<Account> tamanhoLista = getAllAccounts();
