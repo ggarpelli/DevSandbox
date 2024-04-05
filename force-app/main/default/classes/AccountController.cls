@@ -20,6 +20,7 @@ public class AccountController {
             System.debug('Account Name: '+imprimir.Name+ 'Phone Number: '+imprimir.Phone);
         }
         //essa linha foi adicionada para brincar
+        //essa linha foi adicionada pelo Dev Console
     }
     public integer getAccountSize(){
         List<Account> tamanhoLista = getAllAccounts();
