@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set para dar permissoes aos usuarios para chamar o flow com o HTTP Callout</description>
+    <externalCredentialPrincipalAccesses>
+        <enabled>true</enabled>
+        <externalCredentialPrincipal>ExternalCredentialOpenAi-External Credential OpenAi Principal Permission</externalCredentialPrincipal>
+    </externalCredentialPrincipalAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>HTTP Callout para OpenAi</label>
+    <license>Salesforce</license>
+</PermissionSet>
